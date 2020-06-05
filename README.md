@@ -1,20 +1,33 @@
-# xunit-sample
+xunit-sample
+====================
 
-#InstallPrerequsites:
+Install Prerequsites
+---------------------
+Install VS Code Plugins - Install coverlet and Covergae Gutters
 
-## VS Code Plugins - coverlet and Covergae Gutters
+Install Report Generator using the command below
 
-## Report Generator - use command below
-## dotnet tool install -g dotnet-reportgenerator-globaltool
+<code>
+dotnet tool install -g dotnet-reportgenerator-globaltool
+</code>
 
-#To run tests
+To run tests
+------------
 
-## cd test
-## dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+<code>
+cd test
 
-#This will generate a file named test\coverage.opencover.xml.
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+</code>
+  
+This will generate a file named test\coverage.opencover.xml.
 
-# Run ReportGenerator tool
-# ReportGenerator.exe -reports:coverage.opencover.xml -targetdir:.\html -sourcedirs:..\impl
+Run ReportGenerator tool
+------------------------
 
+<code>
+ReportGenerator.exe -reports:coverage.opencover.xml -targetdir:.\html -sourcedirs:..\impl
+</code>
+<br/><br/>
 This will generate html reports in the test\html folder
+
