@@ -29,5 +29,7 @@ Run ReportGenerator tool
 ReportGenerator.exe -reports:coverage.opencover.xml -targetdir:.\html -sourcedirs:..\impl
 </code>
   
+
+  
 This will generate html reports in the test\html folder
 
