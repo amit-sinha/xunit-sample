@@ -7,7 +7,9 @@ VS Code Plugins - Install coverlet and Covergae Gutters
 
 Report Generator - use command below
 
+<code>
 dotnet tool install -g dotnet-reportgenerator-globaltool
+</code>
 
 To run tests
 ------------
