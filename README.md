@@ -3,7 +3,7 @@ xunit-sample
 
 Install Prerequsites
 ---------------------
-Install VS Code Plugins - Install coverlet and Covergae Gutters
+Install VS Code Plugins - Install .NET Core Test Explorer, Coverlet and Coverage Gutters
 
 Install Report Generator using the command below
 
