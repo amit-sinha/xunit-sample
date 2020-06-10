@@ -1,5 +1,7 @@
 ﻿using System;
 
+#pragma warning disable CA1303
+
 namespace impl
 {
     public class Program
