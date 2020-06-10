@@ -3,6 +3,6 @@
     ...
     <Rules AnalyzerId="System.Runtime.Analyzers" RuleNamespace="System.Runtime.Analyzers">
         <Rule Id="CA1305" Action="None" />
-        <!--<Rule Id="CA1801" Action="Error" />-->
+        <!-- <Rule Id="CA1801" Action="Error" /> -->
     </Rules>
 </RuleSet>
