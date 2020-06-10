@@ -34,3 +34,12 @@ ReportGenerator.exe -reports:coverage.opencover.xml -targetdir:.\html -sourcedir
 <br/><br/>
 This will generate html reports in the test\html folder
 
+Code analysis and rules
+------------------------
+The project uses the Microsoft.CodeAnalysis.FxCopAnalyzers nuget package as a code analysis tool.
+There is a ruleset file included in this repository. It can be tweaked to throw build errors if a rule is violated.
+Example from the ruleset file:
+<!-- <Rule Id="CA1801" Action="Error" /> -->
+If you uncomment this line, the impl project will not build as the Main method has an argument (string[] args) which are not used in the method body.
+The rule ids are defined by microsoft and are all documented on MSDN.
+Rule CA1801: Review unused parameters - https://docs.microsoft.com/en-us/visualstudio/code-quality/ca1801?view=vs-2019
