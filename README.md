@@ -5,6 +5,8 @@ Install Prerequsites
 ---------------------
 Install the following VS Code Plugins:
 * C# for Visual Studio Code - by OmniSharp
+
+Install the following VS code plugins if you need to run unit tests:
 * .NET Core Test Explorer
 * Coverlet
 * Coverage Gutters
