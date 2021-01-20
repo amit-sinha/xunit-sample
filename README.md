@@ -4,6 +4,7 @@ xunit-sample
 Install Prerequsites
 ---------------------
 Install the following VS Code Plugins:
+* C# for Visual Studio Code - by OmniSharp
 * .NET Core Test Explorer
 * Coverlet
 * Coverage Gutters
