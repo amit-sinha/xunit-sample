@@ -24,7 +24,7 @@ From powershell, run the following commands from the solution dir
 <code>
   dotnet build .\xunit.sln
 </code>
-
+<br/>
 <code>
   dotnet run --project .\impl\
 </code>
