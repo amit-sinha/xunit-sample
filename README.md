@@ -17,6 +17,12 @@ Install Report Generator using the command below
 dotnet tool install -g dotnet-reportgenerator-globaltool
 </code>
 
+To build and run implementation code
+---------------------
+From powershell, run the following commands from the solution dir 
+* dotnet build .\xunit.sln
+* dotnet run --project .\impl\
+
 To run tests
 ------------
 
