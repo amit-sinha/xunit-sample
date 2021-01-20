@@ -20,8 +20,10 @@ dotnet tool install -g dotnet-reportgenerator-globaltool
 To build and run implementation code
 ---------------------
 From powershell, run the following commands from the solution dir 
-* dotnet build .\xunit.sln
-* dotnet run --project .\impl\
+<code>
+  dotnet build .\xunit.sln
+  dotnet run --project .\impl\
+</code>
 
 To run tests
 ------------
